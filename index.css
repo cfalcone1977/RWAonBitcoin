@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+  }
+
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+main{
+ scroll-margin-top: 70px;
+}
+
+nav{
+    align-content: center;
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    opacity: 0.8;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #EFF5F5;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    padding: 7px 13px;
+    border-radius: 7px;
+    text-transform: uppercase;
+}
+li a:hover{
+   background:orange;
+   transition: .5s;
+}
+
+
+body{
+  margin: 0;
+  padding: 0;
+  color: beige;
+  background-color: black;
+}
+
+#ORD{
+    font-family: "Noto Sans", sans-serif;
+    scroll-margin-top: 90px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h2{
+  padding-left: 20px;
+  padding-bottom: 15px;
+}
+
+h3{ 
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+main{
+    background-color: black;
+}
+
+#card1, #card2, #card3{
+ width: 80%;
+ display: flex;
+ flex-direction: row;
+ gap: 10px;
+ align-items: center;
+ border: solid orange;
+ border-radius: 7px;
+ padding: 10px;
+ margin: 20px;
+ box-shadow: 0px 0px 0px 0px orange;
+}
+#card2{
+ justify-content: center;   
+ flex-wrap: wrap;
+}
+
+#card3{
+flex-wrap: wrap;
+justify-content: center;
+}
+
+#card2, #card3{
+    margin-top: 70px;
+    justify-items: center;
+}
+#contanedor2{
+  width: 500px;
+  justify-items: center;
+
+}
+#card1:hover{
+box-shadow: 0px 0px 40px 20px orange; 
+}
+#card2:hover{
+box-shadow: 0px 0px 40px 20px orange; 
+}
+#card3:hover{
+ box-shadow: 0px 0px 40px 20px orange; 
+}
+#resumen:hover{
+  box-shadow: 0px 0px 40px 20px orange;    
+}
+p{
+    text-align: center;
+    color: beige;
+}
+#introduccion1, #introduccion2, #introduccion3{
+    padding: 50px;
+}
+#contenedorFoto{
+    margin: 10px;
+}
+#contenedorFotoDESC1{
+    margin: 20px;
+}
+
+#pieFoto{
+    margin-top: 0px;
+    font-size: 10px;
+    color: beige;
+}
+
+#descripcion1, #descripcion2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+}
+img{
+    border-radius: 7px;
+    box-shadow: 4px 4px 4px orange; 
+}
+.sombraBTC{
+    border-radius: 10px;
+    box-shadow: 8px 8px 8px orange; 
+}
+#resumen{
+ width: 80%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border: solid orange;
+ border-radius: 7px;
+ padding: 40px;
+ margin: 10px;
+ box-shadow: 0px 0px 0px 0px orange;
+}
+
+
+footer{
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+   margin-top: 30px; /* Elimina los márgenes superior e inferior por defecto */
+    line-height: 0em;
+}
