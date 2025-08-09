@@ -82,6 +82,19 @@ main{
  margin: 20px;
  box-shadow: 0px 0px 0px 0px orange;
 }
+#resumen{
+ width: 80%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ border: solid orange;
+ border-radius: 7px;
+ padding: 10px;
+ margin: 20px;
+ box-shadow: 0px 0px 0px 0px orange;
+}   
+
+
 #card2{
  justify-content: center;   
  flex-wrap: wrap;
@@ -92,12 +105,11 @@ flex-wrap: wrap;
 justify-content: center;
 }
 
-#card2, #card3{
+#card2, #card3, #resumen{
     margin-top: 70px;
     justify-items: center;
 }
-#contanedor2{
-  width: 500px;
+#contenedor2{
   justify-items: center;
 
 }
@@ -118,7 +130,7 @@ p{
     color: beige;
 }
 #introduccion1, #introduccion2, #introduccion3{
-    padding: 50px;
+    padding: 20px;
 }
 #contenedorFoto{
     margin: 10px;
@@ -137,27 +149,21 @@ p{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 900px;
 }
 img{
     border-radius: 7px;
     box-shadow: 4px 4px 4px orange; 
 }
+#oferta{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .sombraBTC{
     border-radius: 10px;
     box-shadow: 8px 8px 8px orange; 
 }
-#resumen{
- width: 80%;
- display: flex;
- flex-direction: column;
- align-items: center;
- border: solid orange;
- border-radius: 7px;
- padding: 40px;
- margin: 10px;
- box-shadow: 0px 0px 0px 0px orange;
-}
+
 
 
 footer{
@@ -170,4 +176,61 @@ footer{
   align-items: center;
    margin-top: 30px; /* Elimina los márgenes superior e inferior por defecto */
     line-height: 0em;
+}
+.oferta{
+    width: 80%;
+}
+
+
+@media (max-width: 750px){
+
+.oferta{
+    width: 500px;
+    font-size: 14px;
+ }   
+
+#resumen{
+    font-size: 14px;
+ }
+
+#introduccion1, #introduccion2, #introduccion3{
+    font-size: 12px;
+    padding: 5px;
+    margin: 5px;
+ }
+
+.imgOrdinal, #portadaColegio{
+    width: 400px;
+ }
+ 
+.sombraBTC{
+    width: 400px;
+ }
+#card2, #card3, #resumen{
+    margin-top: 50px;
+}
+}
+
+@media (max-width: 650px){
+.oferta{
+    width: 400px;
+    font-size: 12px;
+ } 
+
+#resumen{
+    font-size: 12px;
+ }
+
+#introduccion1, #introduccion2, #introduccion3{
+    font-size: 10px;
+    padding: 5px;
+    margin: 5px;
+ }
+#card2, #card3, #resumen{
+    margin-top: 20px;
+}
+footer{
+  font-size: 12px; 
+}
+
 }
