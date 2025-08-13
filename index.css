@@ -275,8 +275,7 @@ ul{
     display: flex;
 }
 .oferta{
-    width: 350px;
-    margin: 5px;
+    width: 330px;
 }
 
 #contenedorFotoDESC1,#contenedorFoto{
@@ -285,17 +284,33 @@ ul{
     align-items: center;
 }
 #card1{
-box-shadow: 0px 0px 40px 20px orange; 
+box-shadow: 0px 0px 10px 5px orange; 
 }
 #card2{
-box-shadow: 0px 0px 40px 20px orange; 
+box-shadow: 0px 0px 10px 5px orange; 
 }
 #card3{
- box-shadow: 0px 0px 40px 20px orange; 
+ box-shadow: 0px 0px 10px 5px orange; 
 }
 #resumen{
-  box-shadow: 0px 0px 40px 20px orange;    
+  box-shadow: 0px 0px 10px 5px orange;    
 }
+
+#card1:hover{
+box-shadow: 0px 0px 10px 5px orange; 
+}
+#card2:hover{
+box-shadow: 0px 0px 10px 5px orange; 
+}
+#card3:hover{
+ box-shadow: 0px 0px 10px 5px orange; 
+}
+#resumen:hover{
+  box-shadow: 0px 0px 10px 5px orange;    
+}
+
+
+
 #pieFoto{
     margin-top: 7px;
 }
