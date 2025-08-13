@@ -234,7 +234,7 @@ footer{
  }
 
 #introduccion1, #introduccion2, #introduccion3{
-    font-size: 10px;
+    font-size: 12px;
     padding: 5px;
     margin: 5px;
  }
@@ -275,10 +275,11 @@ ul{
     display: flex;
 }
 .oferta{
-    width: 300px;
+    width: 350px;
     margin: 5px;
 }
-#contenedorFotoDESC1{
+
+#contenedorFotoDESC1,#contenedorFoto{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -297,5 +298,8 @@ box-shadow: 0px 0px 40px 20px orange;
 }
 #pieFoto{
     margin-top: 7px;
+}
+#introduccion1, #introduccion2, #introduccion3{
+    padding: 5px;
 }
 }
