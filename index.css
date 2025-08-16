@@ -145,6 +145,23 @@ p{
     flex-direction: column;
     justify-content: center;
 }
+.contenedorPDF{
+    position: relative;
+    width: 90%; /* El contenedor ocupa todo el ancho disponible */
+    padding-top: 141.42%;
+
+}
+.contenedorPDF iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; /* El iframe se expande para llenar el contenedor */
+    height: 100%;
+}
+iframe {
+    width: 100%;
+    height: 80%;
+}
 
 #pieFoto{
     margin-top: 5px;
@@ -283,6 +300,12 @@ ul{
     flex-direction: column;
     align-items: center;
 }
+
+iframe {
+        width: 100%; /* Se ajusta al ancho de la pantalla */
+        height: 60vh /* Se ajusta a una porción del alto de la pantalla */
+}
+
 #card1{
 box-shadow: 0px 0px 10px 5px orange; 
 }
@@ -308,8 +331,6 @@ box-shadow: 0px 0px 10px 5px orange;
 #resumen:hover{
   box-shadow: 0px 0px 10px 5px orange;    
 }
-
-
 
 #pieFoto{
     margin-top: 7px;
