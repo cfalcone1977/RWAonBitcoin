@@ -355,20 +355,21 @@ iframe {
         height: 60vh /* Se ajusta a una porción del alto de la pantalla */
 }
 
-/*
+
 #card1{
-box-shadow: 0px 0px 10px 5px orange; 
+box-shadow: 0px 0px 10px 7px orange; 
 }
 #card2{
-box-shadow: 0px 0px 10px 5px orange; 
+box-shadow: 0px 0px 10px 7px orange; 
 }
 #card3{
- box-shadow: 0px 0px 10px 5px orange; 
+ box-shadow: 0px 0px 10px 7px orange; 
 }
 #resumen{
-  box-shadow: 0px 0px 10px 5px orange;    
-}*/
+  box-shadow: 0px 0px 10px 7px orange;    
+}
 
+/*
 #card1:active, #card1:focus{
 box-shadow: 0px 0px 10px 5px orange; 
 }
@@ -380,7 +381,7 @@ box-shadow: 0px 0px 10px 5px orange;
 }
 #resumen:active, #resumen:focus{
   box-shadow: 0px 0px 10px 5px orange;    
-}
+}*/
 
 #pieFoto{
     margin-top: 7px;
