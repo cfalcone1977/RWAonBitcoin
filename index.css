@@ -369,16 +369,16 @@ box-shadow: 0px 0px 10px 5px orange;
   box-shadow: 0px 0px 10px 5px orange;    
 }*/
 
-#card1:focus{
+#card1:active, #card1:focus{
 box-shadow: 0px 0px 10px 5px orange; 
 }
-#card2:focus{
+#card2:active, #card2:focus{
 box-shadow: 0px 0px 10px 5px orange; 
 }
-#card3:focus{
+#card3:active, #card3:focus{
  box-shadow: 0px 0px 10px 5px orange; 
 }
-#resumen:focus{
+#resumen:active, #resumen:focus{
   box-shadow: 0px 0px 10px 5px orange;    
 }
 
