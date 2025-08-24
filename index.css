@@ -40,7 +40,28 @@ li a:hover{
    background:orange;
    transition: .5s;
 }
+a.idioma{
+    border-radius: 0%;
+    padding: 0px;
+    background: none;
+    transition: none;
+}
+a.idioma:hover{
+    color: orange;
+    border-radius: 20%;
+    padding: 0px;
+    background: none;
+    transition: none;
+}
 
+#idioma {
+    position: absolute; /* Saca el elemento del flujo normal */
+    right: 20px; /* Distancia desde el borde derecho del contenedor */
+    top: 50%; /* Lo alinea a la mitad verticalmente */
+    transform: translateY(-50%); /* Ajuste para centrado vertical perfecto */
+    /* Asegúrate de que el contenedor padre tenga position: relative; */
+    /* En tu caso, <nav> ya lo tiene con position: sticky; */
+}
 
 body{
   margin: 0;
@@ -211,6 +232,31 @@ footer{
     text-align: center;
 }
 
+@media (max-width: 850px){
+nav{
+  height: 150px;
+}  
+#ORD{
+    scroll-margin-top: 150px;  
+}
+
+ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    margin: 20pxpx;
+    padding: 0px;
+
+
+}
+#idioma{
+    margin-top: -40px;
+}
+
+}
+
+
 @media (max-width: 750px){
 
 .oferta{
@@ -279,6 +325,9 @@ ul{
 
 
 }
+#idioma{
+    margin-top: -40px;
+}
 
 .imgOrdinal, #portadaColegio{
     width: 300px;
@@ -306,6 +355,7 @@ iframe {
         height: 60vh /* Se ajusta a una porción del alto de la pantalla */
 }
 
+/*
 #card1{
 box-shadow: 0px 0px 10px 5px orange; 
 }
@@ -317,18 +367,18 @@ box-shadow: 0px 0px 10px 5px orange;
 }
 #resumen{
   box-shadow: 0px 0px 10px 5px orange;    
-}
+}*/
 
-#card1:hover{
+#card1:focus{
 box-shadow: 0px 0px 10px 5px orange; 
 }
-#card2:hover{
+#card2:focus{
 box-shadow: 0px 0px 10px 5px orange; 
 }
-#card3:hover{
+#card3:focus{
  box-shadow: 0px 0px 10px 5px orange; 
 }
-#resumen:hover{
+#resumen:focus{
   box-shadow: 0px 0px 10px 5px orange;    
 }
 
